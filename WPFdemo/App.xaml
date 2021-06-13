@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:WPFdemo"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FFFFE4FF"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
     </Application.Resources>
 </Application>
