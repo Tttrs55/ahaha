@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WPFdemo
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Auth.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Auth : Page
     {
-        public MainWindow()
+        public Auth()
         {
             InitializeComponent();
         }
