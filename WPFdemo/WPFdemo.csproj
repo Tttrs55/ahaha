@@ -103,16 +103,16 @@
     <Compile Include="Tag.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Page Include="MainWindow.xaml">
+    <None Include="ddddxaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
+    </None>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <DependentUpon>ddddxaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
