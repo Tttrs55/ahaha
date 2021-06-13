@@ -19,10 +19,9 @@ C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\WPFdemo.csproj.CoreCompil
 C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\WPFdemo.csproj.CopyComplete
 C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\WPFdemo.exe
 C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\WPFdemo.pdb
-C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\FirstWindow.g.cs
-C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\FirstWindow.baml
-C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\Auth.g.cs
-C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\Auth.baml
 C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\Отображение\ServicePage.g.cs
 C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\Основное\Auth.g.cs
 C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\Основное\FirstWindow.g.cs
+C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\Отображение\ServicePage.baml
+C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\Основное\Auth.baml
+C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\Основное\FirstWindow.baml
