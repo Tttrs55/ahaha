@@ -21,3 +21,4 @@ C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\WPFdemo.exe
 C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\WPFdemo.pdb
 C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\MainWindow.g.cs
 C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\MainWindow.baml
+C:\Users\HotTec\source\repos\WPFdemo\WPFdemo\obj\Debug\dddd.g.cs
