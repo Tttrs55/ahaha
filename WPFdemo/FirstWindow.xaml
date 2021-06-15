@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPFdemo"
         mc:Ignorable="d"
         Title="FirstWindow" Height="450" Width="800" Background="{x:Null}"
-        Icon="Resources/beauty_logo.ico">
+        Icon="Resources/beauty_logo.ico" MinWidth="1000" MinHeight="500">
     <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="94*"/>
@@ -15,7 +15,7 @@
         <Grid Background="#ffe4ff" Grid.Row="0"></Grid>
         <TextBlock Text="Услуги салона красоты" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="33"></TextBlock>
         <Image Source="Resources/beauty_logo.png" HorizontalAlignment="Left" Width="89"></Image>
-        <Frame Name="MainFrame" Grid.Row="1"></Frame>
-        <Button Content="Назад" Grid.Row="0" HorizontalAlignment="Right" Height="Auto" Margin="0,30,10,31" Width="37"></Button>
+        <Frame Name="MainFrame" Grid.Row="1" ContentRendered="MainFrame_ContentRendered" NavigationUIVisibility="Hidden"></Frame>
+        <Button Name="btnBack" Content="Назад" Grid.Row="0" HorizontalAlignment="Right" Click="Button_Click"></Button>
     </Grid>
 </Window>

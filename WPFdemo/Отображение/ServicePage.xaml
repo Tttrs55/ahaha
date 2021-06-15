@@ -9,6 +9,38 @@
       Title="ServicePage">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ListView x:Name="lvServices" Grid.Row="1">
+            <ListView.ItemTemplate>
+            <DataTemplate>
+                <Grid Margin="20" Width="400">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"></RowDefinition>
+                        <RowDefinition Height="310"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Image Width="400" Grid.Row="1" Stretch="UniformToFill" HorizontalAlignment="Center" Margin="5">
+                        <Image.Source>
+                            <Binding Path="ImagePrewie">
+                                <Binding.TargetNullValue>
+                                    <ImageSource>Resources/рфр.png</ImageSource>
+                                </Binding.TargetNullValue>
+                            </Binding>
+                        </Image.Source>
+                    </Image>
+                    <TextBlock Text="{Binding Title}" VerticalAlignment="Center" Width="390" TextWrapping="Wrap" HorizontalAlignment="Center"
+                               Margin="5 5 " FontSize="26" Grid.Row="0"></TextBlock>
+                    <TextBlock Text="{Binding Cost}" HorizontalAlignment="Right" FontSize="14" Grid.Row="2"></TextBlock>
+                    <TextBlock Text="{Binding DurationSeconds}" HorizontalAlignment="Left" FontSize="14" Grid.Row="3"></TextBlock>
+                </Grid>
+               
+            </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         
     </Grid>
 </Page>

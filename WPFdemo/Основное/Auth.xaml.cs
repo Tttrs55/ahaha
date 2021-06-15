@@ -24,5 +24,24 @@ namespace WPFdemo
         {
             InitializeComponent();
         }
+
+        private void Normalbtn_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new ServicePage());
+            MessageBox.Show("Добро пожаловать");
+        }
+
+        private void adminbtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (tbcode.Text == "0000")
+            {
+                Manager.MainFrame.Navigate(new ServicePage());
+                MessageBox.Show("Добро пожаловать");
+            }
+            else
+            {
+                MessageBox.Show("Неверный пароль. Повторите попытку");
+            }
+        }
     }
 }

@@ -18,10 +18,10 @@
             <ColumnDefinition Width="255*"/>
             <ColumnDefinition Width="255*"/>
         </Grid.ColumnDefinitions>
-        <TextBox Name="codetb" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <TextBox Name="tbcode" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" />
         <TextBlock Name="header" Text="Вход" FontSize="33" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="44" Width="72" />
         <TextBlock Name="codetext" Text="Код" FontSize="33" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Height="44" Width="72" />
-        <Button Name="adminbtn" Content="Админ" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0"/>
-        <Button Name="Normalbtn" Content="Обычный" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1"/>
+        <Button Name="adminbtn" Content="Админ" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Click="adminbtn_Click"/>
+        <Button Name="Normalbtn" Content="Обычный" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Click="Normalbtn_Click"/>
     </Grid>
 </Page>

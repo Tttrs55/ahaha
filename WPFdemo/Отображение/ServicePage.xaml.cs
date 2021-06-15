@@ -23,6 +23,13 @@ namespace WPFdemo
         public ServicePage()
         {
             InitializeComponent();
+            var curent = DB.GetServices().ToList();
+            lvServices.ItemsSource = curent;
+        }
+
+        private void btnNext_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new ClientPage());
         }
     }
 }
